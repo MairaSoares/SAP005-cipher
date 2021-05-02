@@ -1,14 +1,55 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
-    <script src="index.js" type="module"></script>
-  </body>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+    <title>Key Localization</title>
+    <link rel="stylesheet" type="text/css" href="https://js.api.here.com/v3/3.1/mapsjs-ui.css" />
+    <link rel="stylesheet" type="text/css" href="demo.css" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="../template.css" />
+    <script type="text/javascript" src='../test-credentials.js'></script>    
+    <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-core.js"></script>
+    <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-service.js"></script>
+    <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-ui.js"></script>
+    <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-mapevents.js"></script>
+  <script>window.ENV_VARIABLE = 'developer.here.com'</script><script src='../iframeheight.js'></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <table width="100%" cellpadding="10">
+        
+        <td width="50%" valign="top">
+            <h1>Meu Mapa</h1>
+            <form action="" id="form">
+                <input type="text" id="endereco">
+                <input type="submit">
+            </form>
+            <button id= "user-location">Minha localização</button>
+            <div style="width: 500px; height: 350px" id="mapContainer">
+
+            </div>
+        </td>
+
+        <td class="conteiner">
+            <img src="parque.png">
+        </td>
+    
+    </table>
+
+  <script src="index.js"></script>
+  <script>
+    const form = document.getElementById('form')
+    form.addEventListener("submit", function (event) {
+      event.preventDefault();
+      const input = document.getElementById("endereco").value + ", Word"
+      geocodingParams = { searchText: input };
+      geocoder.geocode(geocodingParams, onResult);
+      console.log(input);
+    })
+  </script>
+</body>
+
 </html>
