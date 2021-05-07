@@ -8,6 +8,8 @@ const decodeBtn = document.getElementById("btn-decode");
 decodeBtn.addEventListener("click", decodeInput);
 
 
+
+
 function encodeInput(){
   let infoText = document.getElementById("text-encode").value.toUpperCase();
   let offset = Number(document.getElementById("select-offset").value);
