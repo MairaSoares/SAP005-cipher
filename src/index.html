@@ -1,55 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
-    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
-    <title>Key Localization</title>
-    <link rel="stylesheet" type="text/css" href="https://js.api.here.com/v3/3.1/mapsjs-ui.css" />
-    <link rel="stylesheet" type="text/css" href="demo.css" />
-    <link rel="stylesheet" type="text/css" href="styles.css" />
-    <link rel="stylesheet" type="text/css" href="../template.css" />
-    <script type="text/javascript" src='../test-credentials.js'></script>    
-    <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-core.js"></script>
-    <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-service.js"></script>
-    <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-ui.js"></script>
-    <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-mapevents.js"></script>
-  <script>window.ENV_VARIABLE = 'developer.here.com'</script><script src='../iframeheight.js'></script>
+  <meta charset="utf-8" />
+  <title>E-mail Cipher</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-    <table width="100%" cellpadding="10">
-        
-        <td width="50%" valign="top">
-            <h1>Meu Mapa</h1>
-            <form action="" id="form">
-                <input type="text" id="endereco">
-                <input type="submit">
-            </form>
-            <button id= "user-location">Minha localização</button>
-            <div style="width: 500px; height: 350px" id="mapContainer">
+    <h1 id="banner">Proteja o conteúdo de seus e-mails</h1>
+  
+  <main>
+    <section>
+      <h2>Codifique ou decodifique sua mensagem:</h2>
+    </section>
 
-            </div>
-        </td>
+    <section class="container">
 
-        <td class="conteiner">
-            <img src="parque.png">
-        </td>
-    
-    </table>
+      <section class="item-container">
+        <p class="user-profile">DESTINATÁRIO:</p>
+        <textarea type="text" class="message" id="text-encode" placeholder="Digite aqui para codificar!"></textarea>
+        <h3>Deslocamento:</h3>
+        <select class="offset" id="select-offset">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </select>
+        <button class="btn" id="btn-encode">CODIFICAR</button>
+        <h3>O dado codificado é:</h3>
+        <textarea class="text-area" id="text-encode-done" disabled="true"></textarea>
+      </section>
 
-  <script src="index.js"></script>
-  <script>
-    const form = document.getElementById('form')
-    form.addEventListener("submit", function (event) {
-      event.preventDefault();
-      const input = document.getElementById("endereco").value + ", Word"
-      geocodingParams = { searchText: input };
-      geocoder.geocode(geocodingParams, onResult);
-      console.log(input);
-    })
-  </script>
+      <section class="item-container">
+        <p class="user-profile">REMETENTE:</p>
+        <textarea type="text" class="message" id="text-decode"  placeholder="Digite aqui para decodificar!"></textarea>
+        <h3>Deslocamento:</h3>
+        <select class="offset" id="select-offset-deco">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </select>
+        <button class="btn" id="btn-decode">DECODIFICAR</button>
+        <h3>O dado decodificado é:</h3>
+        <textarea class="text-area" id="text-encode-done" disabled="true"></textarea>
+      </section>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <p>
+      Desenvolvido por
+      <a href="https://github.com/MairaSoaresSales" target="_blank">MairaSoaresSales</a>
+    </p>
+  </footer>
+  <script src="index.js" type="module"></script>
 </body>
 
 </html>
