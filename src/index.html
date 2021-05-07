@@ -4,12 +4,16 @@
 
 <head>
   <meta charset="utf-8" />
-  <title>E-mail Cipher</title>
+  <title>Cipher-E-mail</title>
+  <link rel="icon" 
+    type="image/png" 
+    href="./Img/icon-tittle.png"
+  />
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-    <h1 id="banner">Proteja o conteúdo de seus e-mails</h1>
+    <h1>Proteja o conteúdo de seus e-mails</h1>
   
   <main>
     <section>
@@ -19,8 +23,8 @@
     <section class="container">
 
       <section class="item-container">
-        <p class="user-profile">DESTINATÁRIO:</p>
-        <textarea type="text" class="message" id="text-encode" placeholder="Digite aqui para codificar!"></textarea>
+        <p class="title-container">DESTINATÁRIO:</p>
+        <textarea type="text" class="text-box" id="text-encode" placeholder="Digite aqui para codificar!"></textarea>
         <h3>Deslocamento:</h3>
         <select class="offset" id="select-offset">
           <option value="1">1</option>
@@ -35,13 +39,13 @@
           <option value="10">10</option>
         </select>
         <button class="btn" id="btn-encode">CODIFICAR</button>
-        <h3>O dado codificado é:</h3>
-        <textarea class="text-area" id="text-encode-done" disabled="true"></textarea>
+        <h3>Sua mensagem criptografada:</h3>
+        <textarea class="text-box" id="text-encode-done" disabled="true"></textarea>
       </section>
 
       <section class="item-container">
-        <p class="user-profile">REMETENTE:</p>
-        <textarea type="text" class="message" id="text-decode"  placeholder="Digite aqui para decodificar!"></textarea>
+        <p class="title-container">REMETENTE:</p>
+        <textarea type="text" class="text-box" id="text-decode"  placeholder="Digite aqui para decodificar!"></textarea>
         <h3>Deslocamento:</h3>
         <select class="offset" id="select-offset-deco">
           <option value="1">1</option>
@@ -56,8 +60,8 @@
           <option value="10">10</option>
         </select>
         <button class="btn" id="btn-decode">DECODIFICAR</button>
-        <h3>O dado decodificado é:</h3>
-        <textarea class="text-area" id="text-encode-done" disabled="true"></textarea>
+        <h3>Leia sua mensagem descriptografada:</h3>
+        <textarea class="text-box" id="text-decode-done" disabled="true"></textarea>
       </section>
 
     </section>
