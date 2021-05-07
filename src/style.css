@@ -5,15 +5,21 @@
 }
 
 body{
-    background-color: #bf3a30;
-    background-image: linear-gradient(315deg, #bf3a30 0%, #864ba2 74%);
-
+    background-color: #eee8aa;
     overflow-x: hidden;
+    background-image: url(Img/fundo-tela.jpg);
+    background-attachment:fixed;
+
+}
+
+header{
+    width: 100%;
+    padding: 40px;
 }
 
 
-.footer-title{
-    background-image: url(img/banner.jpeg);
+.barra{
+    background-color: rosybrown;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -118,7 +124,7 @@ option{
 
 .btn{ 
     
-    background-color: rgb(126, 126, 221);
+    background-color:rosybrown;
 
     border-radius: 300px;
     color: white;
@@ -136,7 +142,7 @@ option{
 }
 
 .btn:hover{
-    background-color: rgb(179, 74, 74);
+    background-color: rgb(141, 74, 74);
     transform: scale(0.9);
 }
 
