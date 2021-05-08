@@ -14,7 +14,7 @@ function encodeInput(){
   let infoText = document.getElementById("text-encode").value.toUpperCase();
   let offset = Number(document.getElementById("select-offset").value);
   if (infoText===""){
-      alert("Digite o texto para ser codificado");
+      mostra("Digite o texto para ser codificado");
   }
   else{
     let comparing = encode.encode(offset, infoText);
