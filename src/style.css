@@ -17,8 +17,11 @@ header{
     padding: 40px;
 }
 
-
 .barra{
+    background-color: rosybrown;
+}
+
+.barra-footer{
     background-color: rosybrown;
 }
 
