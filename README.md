@@ -1,6 +1,5 @@
 ![Cipher E-mail](src/Img/logo-readme.png)
 
-
 Esse projeto foi realizado durante o Bootcamp da Laboratoria - turma SAP005, iniciando nossos estudos sobre javascript.
 
 [**Conheça a Cipher E-mail :computer:**] (https://cipher-text-mail.herokuapp.com/)
@@ -28,6 +27,7 @@ Esse projeto foi realizado durante o Bootcamp da Laboratoria - turma SAP005, ini
 A Cipher E-mail é uma aplicação feita para criptografar os e-mails tanto do destinatário como do rementente através do deslocamento das letras conforme sua posição. Foi inspirado na Cifra de César, também conhecida como cifra de troca, código de César ou troca de César, é uma das mais simples e conhecidas técnicas de criptografia. É um tipo de cifra de substituição na qual cada letra do texto é substituída por outra, que se apresenta no alfabeto abaixo dela um número fixo de vezes. Por exemplo, com uma troca de três posições, A seria substituído por D, B se tornaria E, e assim por diante. O nome do método é em homenagem a Júlio César, que o usou para se comunicar com os seus generais.
 
 ### 1.2 Nome Cipher E-mail
+![Cipher E-mail](src/Img/logo1.png) 
 
 ![Cipher E-mail](src/Img/logo1.png) 
 
