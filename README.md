@@ -1,4 +1,6 @@
-![Cipher E-mail](src/Img/logo-readme.png)
+<p align="center"> 
+<img src="src/Img/logo-readme.png">
+</p>
 
 Esse projeto foi realizado durante o Bootcamp da Laboratoria - turma SAP005, iniciando nossos estudos sobre javascript.
 
@@ -29,8 +31,6 @@ A Cipher E-mail é uma aplicação feita para criptografar os e-mails tanto do d
 ### 1.2 Nome Cipher E-mail
 ![Cipher E-mail](src/Img/logo1.png) 
 
-![Cipher E-mail](src/Img/logo1.png) 
-
 O nome cipher vem do inglês, cifra e refere-se a criptografia utilizada, já o e-mail é um dos meios mais populares de comunicação tecnológica existente. Esse projeto é um tributo entre o que há de mais antigo na arte de decifrar com o que há de mais recente na arte de corresponder-se.
 
 
@@ -38,7 +38,9 @@ O nome cipher vem do inglês, cifra e refere-se a criptografia utilizada, já o 
 
 Esta aplicação foi pensada para que o próprio funcionário possa utilizar intuitivamente os recursos disponíveis. Acessando o site da [Cipher E-mail](https://cipher-text-mail.herokuapp.com/), será possível decifrar e codificar mensagens, bem como copiar a informação e enviar por e-mail com somente um clique.
 
-![Gif](src/Img/gifpage.gif)
+<p align="center"> 
+<img src="src/Img/gifpage.gif">
+</p>
 
 
 ---
@@ -52,7 +54,9 @@ Se quiser saber um pouco mais sobre o planejamento, basta acessar esse [link](ht
 
 ### 3.1 Critérios mínimos de aceitação do projeto
 
-![Definição de Pronto](src/Img/definidopronto.png)
+<p align="center"> 
+<img src="src/Img/definidopronto.png">
+</p>
 
 ### 3.2 Prótipos
 
