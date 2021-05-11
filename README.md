@@ -36,7 +36,7 @@ O nome cipher vem do inglês, cifra e refere-se a criptografia utilizada, já o 
 
 ### 1.3 Conhecendo um pouco da interface
 
-Esta aplicação foi pensada para que o próprio funcionário possa utilizar intuitivamente os recursos disponíveis. Acessando o site da [Cipher E-mail](https://cipher-text-mail.herokuapp.com/), será possível decifrar e codificar mensagens, bem como copiar a informação e enviar por e-mail com somente um clique.
+Esta aplicação foi pensada para que o próprio usuário possa utilizar intuitivamente os recursos disponíveis. Acessando o site da [Cipher E-mail](https://cipher-text-mail.herokuapp.com/), será possível decifrar e codificar mensagens, bem como copiar a informação e enviar por e-mail com somente um clique.
 
 <p align="center"> 
 <img src="src/Img/gifpage.gif">
