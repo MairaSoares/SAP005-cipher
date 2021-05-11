@@ -13,7 +13,7 @@ Esse projeto foi realizado durante o Bootcamp da Laboratoria - turma SAP005, ini
 ## Índice
 
 - [1. Apresentação do Projeto](#1-apresentação-do-projeto)
-  - [1.2 Nome Cantina Hamburgo](#1.1-nome-cantina-hamburgo)
+  - [1.2 Nome Cipher E-mail](#1.1-nome-cipher-email)
   - [1.3 Conhecendo a interface](#1.1-conhecendo-a-interface)
 - [2. Planejamento Ágil](#2-planejamento-agil)
 - [3. Desenvolvimento](#4-desenvolvimento)
